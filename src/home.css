@@ -1,0 +1,49 @@
+#todo .header{
+    margin-top: 10px;
+    padding: 8px;
+    background: rgba(51, 51, 51, 0.664);
+    border-radius: 10px;
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    color: white;
+}
+
+#todo .header h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#todo .header h5{
+    font-size: 1.2rem;
+}
+
+#todo .content{
+    background: rgba(51, 51, 51, 0.664);
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    border-radius: 10px;
+}
+#todo table{
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#todo table th{
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  border-bottom: 3px solid gray;
+}
+
+#todo table td{
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+#todo table td span{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
